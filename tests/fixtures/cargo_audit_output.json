@@ -1,0 +1,61 @@
+{
+  "database": {
+    "advisory-count": 700,
+    "last-commit": "2026-05-01T00:00:00Z",
+    "last-updated": "2026-05-01T00:00:00Z"
+  },
+  "lockfile": {
+    "dependency-count": 150
+  },
+  "vulnerabilities": {
+    "found": true,
+    "count": 3,
+    "list": [
+      {
+        "advisory": {
+          "id": "RUSTSEC-2024-0001",
+          "title": "Example vuln low",
+          "cvss": 2.5
+        },
+        "versions": {
+          "patched": [">=1.0.1"],
+          "unaffected": []
+        },
+        "package": {
+          "name": "some-crate",
+          "version": "1.0.0"
+        }
+      },
+      {
+        "advisory": {
+          "id": "RUSTSEC-2024-0002",
+          "title": "Example vuln high",
+          "cvss": 8.1
+        },
+        "versions": {
+          "patched": [">=2.0.0"],
+          "unaffected": []
+        },
+        "package": {
+          "name": "another-crate",
+          "version": "1.5.0"
+        }
+      },
+      {
+        "advisory": {
+          "id": "RUSTSEC-2024-0003",
+          "title": "Example vuln critical",
+          "cvss": 9.8
+        },
+        "versions": {
+          "patched": [">=3.0.0"],
+          "unaffected": []
+        },
+        "package": {
+          "name": "bad-crate",
+          "version": "2.0.0"
+        }
+      }
+    ]
+  }
+}

@@ -1,0 +1,11 @@
+[[package]]
+name = "serde"
+version = "1.0.197"
+
+[[package]]
+name = "tokio"
+version = "1.37.0"
+
+[[package]]
+name = "some-crate"
+version = "1.0.0"

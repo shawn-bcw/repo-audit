@@ -1,0 +1,17 @@
+lockfileVersion: '9.0'
+
+settings:
+  autoInstallPeers: true
+  excludeLinksFromLockfile: false
+
+packages:
+  express@4.18.2:
+    resolution: {integrity: sha512-abcdef}
+    engines: {node: '>= 0.10.0'}
+
+  '@babel/core@7.27.1':
+    resolution: {integrity: sha512-ghijkl}
+    engines: {node: '>=6.9.0'}
+
+  lodash@4.17.21:
+    resolution: {integrity: sha512-mnopqr}
